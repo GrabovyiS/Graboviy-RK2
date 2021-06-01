@@ -26,10 +26,17 @@ function createnew(){
     let categ_text=document.createTextNode('Категория: '+select.value);
     new_categ.appendChild(categ_text);
 
+    let checkform = document.createElement('form');
+    let checkbox = document.createElement('input');
+    checkbox.type='checkbox';
+
+
     new_li.appendChild(new_h3);
     new_li.appendChild(new_p);
     new_li.appendChild(new_categ);
+    new_li.appendChild(checkbox);
     ul.appendChild(new_li);
 
     form.reset();    
 }
+
