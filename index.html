@@ -69,25 +69,22 @@
                 </div>
                 <div class="main__edit-list-container">
                     <h2 class="main__edit-list-heading">Редактируемый список</h2>
-                    <form action="" class="main__form form">
+                    <form action="" id="main__form" class="main__form form">
                         <label class="form__label" for="name">Название</label>
                         <input type="text" id="name" name="name" class="form__input">
-                        <select name="category" class="form__select" id="">
+                        <select name="category" class="form__select" id="select">
                             <option value="Эконом">Эконом</option>
                             <option value="Средний">Средний</option>
                             <option value="Люкс">Люкс</option>
                         </select>
                         <label class="form__label" for="count">Количество</label>
-                        <input type="text" id="name" name="name" class="form__input">
-                        <button class="form__add-btn">Добавить элемент в список</button>
+                        <input type="text" id="count" name="count" class="form__input">
+                        <div id="btn" class="form__add-btn">Добавить элемент в список</div>
                     </form>
                 </div>
                 <div class="main__list list">
-                    <ul class="list__ul">
-                        <li class="list__li">
-                            <h3 class="list__heading">1234</h3>
-                            <p class="list__text">1234</p>
-                        </li>
+                    <ul class="list__ul" id="list__ul">
+                        
                     </ul>
                 </div>
             </div>

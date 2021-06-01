@@ -61,8 +61,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 3px #F77F00;
-    background-color: #EAE2B7;
+    background-color: #F77F00
 }
 @media (max-width:576px) {
     .header__container{
@@ -167,6 +166,10 @@
     min-height: 35px;
     font-size: 1.2rem;
     color: #D62828;
+    background-color: white;
+    display: block;
+    width: 250px;
+    cursor: pointer;
 }
 .list__ul{
     display: flex;
@@ -182,6 +185,7 @@
     border: 3px solid #F77F00;
     min-height: 250px;
     padding: 5px;
+    margin: 20px;
 }
 .list__heading{
     font-size: 1.5rem;
