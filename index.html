@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Грабовый</title>
+</head>
+<body>
+        <header class="header">
+            <div class="header__container">
+                <img src="imges/complogo.png" alt="компьютер" class="header__logo">
+                <nav class="header__nav">
+                    <ul class="header__ul">
+                        <li class="header__li"><a class="header__link" href="#"></a>Начало</li>
+                        <li class="header__li"><a class="header__link" href="#"></a>Карточки</li>
+                        <li class="header__li"><a class="header__link" href="#"></a>Футер</li>
+                    </ul>
+                </nav>
+                <div class="header__switcher">
+                    <div class="header__dot"></div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container">
+                <h1 class="main__heading">Сборка компьютера</h1>
+                <div class="main__cards">
+                    <div class="main__card card">
+                        <div class="card__img-container"><img class="card__image" src="imges/cheap.png" alt=""></div>
+                        <div class="card__text-container">
+                            <h2 class="card__heading">Эконом</h2>
+                            <ul class="card__list">
+                                <li class="card__li">1050Ti</li>
+                                <li class="card__li">Ryzen 5</li>
+                                <li class="card__li">Корпус из табуретки</li>
+                                <li class="card__li">Охлаждение вентилятором</li>
+                                <li class="card__li">HDD 512</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main__card card">
+                        <div class="card__img-container"><img class="card__image" src="imges/mid.jpg" alt=""></div>
+                        <div class="card__text-container">
+                            <h2 class="card__heading">Средний</h2>
+                            <ul class="card__list">
+                                <li class="card__li">RTX 1660</li>
+                                <li class="card__li">Intel core I5</li>
+                                <li class="card__li">Корпус Corsair</li>
+                                <li class="card__li">SSD 1024</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main__card card">
+                        <div class="card__img-container"><img src="imges/lux.jpg" alt="" class="card__image"></div>
+                        <div class="card__text-container">
+                            <h2 class="card__heading">Люкс</h2>
+                            <ul class="card__list">
+                                <li class="card__li">RTX 2060</li>
+                                <li class="card__li">Intel core I7</li>
+                                <li class="card__li">Corsair</li>
+                                <li class="card__li">SSD 2x 1024</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__edit-list-container">
+                    <h2 class="main__edit-list-heading">Редактируемый список</h2>
+                    <form action="" class="main__form form">
+                        <label class="form__label" for="name">Название</label>
+                        <input type="text" id="name" name="name" class="form__input">
+                        <select name="category" class="form__select" id="">
+                            <option value="Эконом">Эконом</option>
+                            <option value="Средний">Средний</option>
+                            <option value="Люкс">Люкс</option>
+                        </select>
+                        <label class="form__label" for="count">Количество</label>
+                        <input type="text" id="name" name="name" class="form__input">
+                        <button class="form__add-btn">Добавить элемент в список</button>
+                    </form>
+                </div>
+                <div class="main__list list">
+                    <ul class="list__ul">
+                        <li class="list__li">
+                            <h3 class="list__heading">1234</h3>
+                            <p class="list__text">1234</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">Грабовый Савелий Павлович, 201-322, 01.06.2021</p>
+        </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
